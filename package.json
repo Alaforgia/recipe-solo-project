@@ -2,19 +2,19 @@
   "name": "recipe-solo-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "proxy": "http://localhost:5000",
+  "main": "index.jsx",
   "dependencies": {
+    "@vitejs/plugin-react": "^1.2.0",
     "axios": "0.21.1",
     "express": "4.17.1",
     "pg": "8.2.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-redux": "7.2.6",
-    "react-router-dom": "5.3.0",
-    "react-scripts": "5.0.0",
+    "react-router-dom": "6.2.2",
     "redux": "4.1.2",
-    "redux-logger": "3.0.6"
+    "redux-logger": "3.0.6",
+    "vite": "^2.8.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
@@ -23,12 +23,8 @@
     "tailwindcss": "^3.0.23"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "build": "react-scripts build",
-    "client": "react-scripts start",
-    "server": "nodemon --watch server server/server.js",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "vite build",
+    "client": "vite"
   },
   "repository": {
     "type": "git",
@@ -40,5 +36,17 @@
   "bugs": {
     "url": "https://github.com/Alaforgia/recipe-solo-project/issues"
   },
-  "homepage": "https://github.com/Alaforgia/recipe-solo-project#readme"
+  "homepage": "https://github.com/Alaforgia/recipe-solo-project#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
