@@ -6,31 +6,31 @@ function MyRecipes() {
   const recipes = [
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
     {
       name: "Tomato Bisque",
-      image: "src/images/tomatobisque.jpg",
+      image: "src/images/tomatobisque.jpeg",
     },
   ];
   return (
